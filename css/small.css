@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.hero img{
+  border-radius: 0;
+}
+
+aside.left, aside.right{
+  float: inherit;
+  text-align: center;
+}
+
+.lh br{
+  display: none;
+}

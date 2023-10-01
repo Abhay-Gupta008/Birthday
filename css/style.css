@@ -1,0 +1,113 @@
+/*
+ * General Styles
+*/
+
+html{
+  font-size: 100%;
+}
+
+
+body {
+  background: url('../images/space-background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 23px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  margin-left: 100px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 20px;
+}
+
+h1 {
+
+  font-size: 3.125rem;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+.hero img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #FFF;
+  border-radius: 20px 20px 0 0;
+}
+
+/* .bot{
+  margin-left: 250px;
+} */
+
+.lh br{
+  display: none;
+}
+
+aside.left{
+  float: left;
+}
+aside.right{
+  float: right;
+}
+
+.sec2{
+  background-color: lightgrey;
+}
+
+.unip{
+  font-size: 20px;
+  text-align: center;
+}
+.low{
+  line-height: 1.25;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  text-align: center;
+}
